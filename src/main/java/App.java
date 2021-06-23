@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main {
+public class App {
     private static final List<Parent> parents = new LinkedList<>();
     private static final List<Parent> children = new LinkedList<>();
 
@@ -55,7 +55,6 @@ public class Main {
             addFam(members[0], members[1]);
         }
 
-        System.out.println("Lista roditelja:");
         for(int i = 0; i < parents.size(); i++){
             if(!(children.contains(parents.get(i))))
             parents.get(i).print(0);
