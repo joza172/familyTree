@@ -1,0 +1,23 @@
+# versoFamilyTree
+"versoFamilyTree" is an application that creates a type of family tree from an input file with names and relation of the family members in certain format
+
+
+## Installation
+Position yourself in the project's directory.
+Run the command ">mvn clean package" to create a jar file ,compile the code and run some tests.
+
+Position yourself in ./target/classes.
+Run the command ">java App" to run the application.
+
+
+## Usage
+When you run the application, you will be asked for a file path for a file in which you wrote your input.
+After the file is found, the application will write out the family tree and close.
+
+
+## Input file
+Input file should have a list of names of each child and its parent in the family in <child name> <parent name> format
+
+*input file example (Marry and Michael are John's paretns)
+John Marry
+John Michael
